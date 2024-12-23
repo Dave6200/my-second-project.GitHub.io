@@ -1,0 +1,444 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Gentium Book Basic';
+	src: url('../fonts/GentiumBookBasic-Bold.eot');
+	src: url('../fonts/GentiumBookBasic-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GentiumBookBasic-Bold.woff2') format('woff2'),
+		url('../fonts/GentiumBookBasic-Bold.woff') format('woff'),
+		url('../fonts/GentiumBookBasic-Bold.ttf') format('truetype'),
+		url('../fonts/GentiumBookBasic-Bold.svg#GentiumBookBasic-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+header {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 21px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Gentium Book Basic';
+	padding: 0.5rem 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, 0.787);
+}
+
+.social_icons {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	justify-content: space-around;
+}
+
+h1 {
+	width: 970px;
+	margin: 50px auto 0;
+	opacity: 0.922;
+	font-size: 90px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Yeseva One', serif;
+	text-align: center;
+	filter: drop-shadow(0.469px 0.883px 1px rgba(1, 1, 1, 0.64));
+}
+
+.btn {
+	border-radius: 0;
+	border: none;
+	margin-top: 20px;
+}
+
+.btn-dark {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-color: #212529;
+	padding: 10px 30px;
+	margin-right: 10px;
+}
+
+.btn-dark:hover {
+	color: rgba(255, 255, 255, 0.739);
+}
+
+.btn-light {
+	color: white;
+	padding: 10px 30px;
+	background-color: rgba(255, 255, 255, 0.564);
+	margin-left: 15px;
+}
+
+/* //////about////////// */
+
+#about {
+	padding: 100px 0;
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about h2 {
+	padding-top: 50px;
+	font-size: 36px;
+	line-height: 24px;
+	color: #cc9900;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+}
+
+.cook p {
+	width: 412px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4c4c4c;
+	font-weight: 400;
+	font-family: 'Lato';
+	text-align: center;
+	padding: 35px 0;
+}
+
+#cook {
+	margin-left: 70px;
+	padding-top: 30px;
+}
+
+/* ///////ingred/////// */
+#ingred {
+	background-image: url(../img/bg3.png);
+	padding: 100px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dark {
+	background-color: rgba(0, 0, 0, 0.738);
+	padding: 70px 50px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.dark h2 {
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+	text-align: center;
+}
+
+.dark p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+.bread img {
+	width: 30%;
+}
+
+/* ///////////////menu//////////// */
+#menu {
+	background-image: url(../img/bg4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+#menu h3 {
+	font-size: 36px;
+	line-height: 24px;
+	color: #cc9900;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+	text-align: center;
+}
+
+.menu_item {
+	width: 420px;
+	margin: 10px auto;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.menu_item img {
+	width: 100%;
+}
+
+.menu_item p {
+	text-align: left;
+}
+
+.menu_item span {
+	font-size: 21px;
+	line-height: 24px;
+	color: #c89f2d;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+	text-align: left;
+}
+
+.brd {
+	border: 1px solid #c9aa53;
+}
+
+.brd p {
+	margin: 0;
+}
+
+#special,
+#special2 {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #f8fafa;
+	font-weight: 400;
+	font-family: 'Lato';
+	background-color: #d5b867;
+	padding: 0 10px;
+}
+
+/* /////////rev/////////// */
+#rev {
+	background-image: url(../img/bg5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+#rev h3 {
+	font-size: 36px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+}
+
+#rev .col-lg-8 {
+	margin: 0 auto;
+}
+
+#rev p {
+	font-size: 25px;
+	line-height: 45px;
+	color: #dde0df;
+	font-weight: 700;
+	font-family: 'Gentium Book Basic';
+}
+
+/* //////////////////reserv///////////////////// */
+
+#reserv {
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+#reserv img {
+	margin: 0 15px;
+}
+
+.reservimg img {
+	width: 35%;
+}
+
+#reserv h3 {
+	font-size: 36px;
+	line-height: 24px;
+	color: #cc9900;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+}
+
+#reserv p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #4c4c4c;
+	font-weight: 400;
+	font-family: 'Lato';
+}
+
+#divor {
+	padding: 30px 0;
+}
+
+.reserv form label {
+	text-align: left;
+}
+
+label {
+	color: #c89f2d;
+	font-size: 14px;
+	color: #c9a131;
+	font-weight: 700;
+	font-family: 'Open Sans';
+}
+
+input::placeholder {
+	font-size: 16px;
+	color: #7c7c7c;
+	font-weight: 400;
+	font-style: italic;
+	font-family: 'Open Sans';
+}
+
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #c89f2d;
+	outline: 0;
+	box-shadow: 0 0 0 1px rgba(200, 159, 45, 0.793);
+}
+
+.btn-gold {
+	background-color: #c9a131;
+	padding: 10px 60px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Open Sans';
+
+}
+
+/* ///////////////////footer////////////////////// */
+footer {
+	background-color: #212529;
+	padding: 70px 0;
+}
+
+h4 {
+	font-size: 21px;
+	line-height: 24px;
+	color: #fefefe;
+	font-weight: 400;
+	font-family: 'Yeseva One';
+}
+
+#divr {
+	padding: 20px 0;
+}
+
+footer p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+	#reserv h3 {
+		font-size: 30px;
+	}
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	h1 {
+		width: 100%;
+		font-size: 75px;
+	}
+
+	#reserv h3 {
+		margin-top: 20px;
+	}
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.navbar-nav {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	.social_icons {
+		margin: 0 auto;
+	}
+
+	.navbar-brand img {
+		width: 60%;
+	}
+}
+
+/* //// `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	h1 {
+		margin-top: 20px;
+	}
+
+	header {
+		padding-bottom: 30px;
+	}
+
+	#ingred {
+		padding: 50px 0;
+	}
+ #rev{
+	padding: 50px 0;
+ }
+ #reserv{
+	padding: 50px 0;
+ }
+	#about {
+		padding: 10px;
+	}
+
+	#about h2 {
+		font-size: 25px;
+	}
+
+	.cook p {
+		width: 100%;
+		padding: 0 50px;
+	}
+
+	.dark h2 {
+		font-size: 25px;
+	}
+
+	.dark {
+		padding: 30px 20px;
+	}
+
+	.menu_item,
+	.divor {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.btn-dark,
+	.btn-light {
+		margin: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+}
